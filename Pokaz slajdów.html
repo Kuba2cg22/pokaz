@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+    <meta charset="utf-8"/>
+    <title>Pokaz slajdów</title>
+
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="pokaz.js">
+    </script>
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+
+</head>
+
+<body>   
+    
+
+    <h1>Pokaz slajdów</h1>
+
+    <div id="slider" class="slider"></div>
+    
+
+
+    <h2>
+    <span onclick="ustawslajd(1)" style="cursor: pointer;">[1] </span>
+    <span onclick="ustawslajd(2)" style="cursor: pointer;">[2] </span>
+    <span onclick="ustawslajd(3)" style="cursor: pointer;">[3] </span>
+    <span onclick="ustawslajd(4)" style="cursor: pointer;">[4] </span>
+    <span onclick="ustawslajd(5)" style="cursor: pointer;">[5] </span>
+    <span onclick="ustawslajd(6)" style="cursor: pointer;">[6] </span>
+    <span onclick="ustawslajd(7)" style="cursor: pointer;">[7] </span>
+    </h2>
+    <br>
+
+    <input type="button" value="Rozpocznij pokaz" class="przycisk1" onclick="rozpocznij()">
+    <input type="button" value="Zatrzymaj pokaz" class="przycisk2" onclick="stop()">
+
+    <audio controls class="audio">
+        <source src="morze.mp3" type="audio/mpeg">
+    </audio>
+
+
+
+
+
+</body>
+</html>    
